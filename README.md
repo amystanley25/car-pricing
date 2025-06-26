@@ -32,7 +32,7 @@ Each model was evaluated using standard metrics like Mean Squared Error (MSE) an
  - Ridge Regression with Polynomial Features also performed well, achieving an R² of 0.9085 and MSE of 0.0753. The regularization slightly reduces overfitting, though at a small cost in performance.
 - Lasso Regression with Polynomial Features had slightly lower performance with an R² of 0.8856 and MSE of 0.0893. It selected a subset of features, which makes the model more interpretable but less accurate.
 - Linear Regression with One-Hot Encoding (without polynomial terms) achieved an R² score of 0.8901 and an MSE of 0.0887. This model performed surprisingly well and offers a more interpretable alternative to polynomial expansion.
-- Among categorical features, 'model', 'brand', and 'vehicleType' had the largest impact on price. The one-hot encoded model revealed that certain car models (e.g., 'Golf', 'BMW 3er') and vehicle types (e.g., 'coupe', 'SUV') significantly drive price variation.
+- Among categorical features, 'model', 'brand', and 'vehicleType' had the largest impact on price. The one-hot encoded model revealed that certain car models and vehicle types ignificantly drive price variation.
 
 ## Results & Conclusion
 
