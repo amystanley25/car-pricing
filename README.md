@@ -6,6 +6,10 @@ This project performs an in-depth analysis of used car prices using a dataset fr
 
 The dataset includes various features such as year, make, model, trim, body style, engine type, transmission, and location-related data, among others. The target variable is the car's price.
 
+
+## Link to Noteboook
+https://github.com/amystanley25/car-pricing/blob/main/prompt_II.ipynb
+
 ## Data Cleaning & Preprocessing
 
 The data was thoroughly cleaned to handle missing values, convert categorical variables, and drop irrelevant or redundant columns. One-hot encoding and polynomial features were used to prepare the dataset for modeling.
